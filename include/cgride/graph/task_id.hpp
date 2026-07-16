@@ -70,19 +70,19 @@ namespace cgride::graph
     /**
      * @brief Compare two task ids.
      */
-    [[nodiscard]] friend bool operator==(const TaskId &lhs,
+    friend bool operator==(const TaskId &lhs,
                                          const TaskId &rhs) noexcept;
 
     /**
      * @brief Compare two task ids.
      */
-    [[nodiscard]] friend bool operator!=(const TaskId &lhs,
+    friend bool operator!=(const TaskId &lhs,
                                          const TaskId &rhs) noexcept;
 
     /**
      * @brief Order task ids by value.
      */
-    [[nodiscard]] friend bool operator<(const TaskId &lhs,
+    friend bool operator<(const TaskId &lhs,
                                         const TaskId &rhs) noexcept;
 
   private:
