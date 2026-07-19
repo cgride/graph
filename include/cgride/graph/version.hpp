@@ -33,7 +33,7 @@ namespace cgride::graph
   /**
    * @brief Patch version of the Cgride graph module.
    */
-  inline constexpr int version_patch = 0;
+  inline constexpr int version_patch = 1;
 
   /**
    * @brief Public API version of the Cgride graph module.
@@ -43,7 +43,7 @@ namespace cgride::graph
   /**
    * @brief Human-readable version string.
    */
-  inline constexpr std::string_view version_string = "0.1.0";
+  inline constexpr std::string_view version_string = "0.1.1";
 
 } // namespace cgride::graph
 
